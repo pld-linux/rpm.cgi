@@ -37,6 +37,8 @@ w³a¶ciciele).
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_rpmcgiscripts},%{_rpmcgihtml}}
 
+sed 's/home\/httpd/home\/services\/httpd/' config.pm > config.pm.tmp
+mv -f config.pm.tmp config.pm
 install rpm.cgi text_conv.pm config.pm $RPM_BUILD_ROOT%{_rpmcgiscripts}
 install images/*.{jpg,gif} $RPM_BUILD_ROOT%{_rpmcgihtml}
 
