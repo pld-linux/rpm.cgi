@@ -11,6 +11,7 @@ Source0:	http://rpmfind.net/linux/linuxPPC/contrib/unpackaged/%{name}-%{version}
 URL:		http://eesa.webstar.co.uk/rpm_cgi/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	apache
+BuildArch:	noarch
 
 %define		_rpmcgihtml	/home/services/httpd/html/rpm_cgi
 %define		_rpmcgiscripts	/home/services/httpd/cgi-bin/rpm_cgi
