@@ -4,7 +4,7 @@ Name:		rpm.cgi
 Version:	0.27
 Release:	1
 License:	GPL v2
-Group:		Applications/Console
+Group:		Applications/WWW
 Vendor:		Abdul-Wahid Paterson <eesa@webstar.co.uk>
 #ftp://eesa.webstar.co.uk/pub/rpm_cgi doesn't work
 Source0:	http://rpmfind.net/linux/linuxPPC/contrib/unpackaged/%{name}-%{version}.tar.gz
