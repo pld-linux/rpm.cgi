@@ -8,6 +8,7 @@ Group:		Applications/WWW
 Vendor:		Abdul-Wahid Paterson <eesa@webstar.co.uk>
 #ftp://eesa.webstar.co.uk/pub/rpm_cgi doesn't work
 Source0:	http://rpmfind.net/linux/linuxPPC/contrib/unpackaged/%{name}-%{version}.tar.gz
+# Source0-md5:	8d4b6f4a4b578e646ef111e21eac63e8
 URL:		http://eesa.webstar.co.uk/rpm_cgi/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	apache
