@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_rpmcgiscripts}
 %attr(755,root,root) %{_rpmcgiscripts}/rpm.cgi
 %{_rpmcgiscripts}/text_conv.pm
-%config(noreplace) %verify(not size mtime md5) %{_rpmcgiscripts}/config.pm
+%config(noreplace) %verify(not md5 mtime size) %{_rpmcgiscripts}/config.pm
 %dir %{_rpmcgihtml}
 %{_rpmcgihtml}/*
