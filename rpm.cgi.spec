@@ -1,5 +1,5 @@
 Summary:	RPM.CGI is a CGI interface to the Redhat Package Management System
-Summary(pl):	Interfejs CGI do zarz±dcy pakietów RPM
+Summary(pl.UTF-8):   Interfejs CGI do zarzÄ…dcy pakietÃ³w RPM
 Name:		rpm.cgi
 Version:	0.27
 Release:	1
@@ -25,11 +25,11 @@ about the package in the RPM database. It also allows browsing of the
 files to see if md5 checksums, file size, file ownership etc. have
 been changed since install time.
 
-%description -l pl
-RPM.CGI jest frontendem CGI na RPM. Pozwala przegl±daæ informacje o
-zainstalowanych pakietach w systemie, a tak¿e sprawdzaæ, czy od czasu
-zainstalowania nie zmieni³y siê pliki (sumy MD5, rozmiary,
-w³a¶ciciele).
+%description -l pl.UTF-8
+RPM.CGI jest frontendem CGI na RPM. Pozwala przeglÄ…daÄ‡ informacje o
+zainstalowanych pakietach w systemie, a takÅ¼e sprawdzaÄ‡, czy od czasu
+zainstalowania nie zmieniÅ‚y siÄ™ pliki (sumy MD5, rozmiary,
+wÅ‚aÅ›ciciele).
 
 %prep
 %setup -q -n rpm_cgi
