@@ -1,5 +1,5 @@
 Summary:	RPM.CGI is a CGI interface to the Redhat Package Management System
-Summary(pl.UTF-8):   Interfejs CGI do zarządcy pakietów RPM
+Summary(pl.UTF-8):	Interfejs CGI do zarządcy pakietów RPM
 Name:		rpm.cgi
 Version:	0.27
 Release:	1
